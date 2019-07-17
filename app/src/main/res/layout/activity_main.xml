@@ -1,0 +1,56 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:padding="8dp"
+            android:orientation="vertical"
+            android:translationY="70.0dp">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="293dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:fontFamily="@font/bigshot_one"
+                android:padding="8dp"
+                android:text="WELCOME TO ALC 4.0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="ABOUT ALC"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:translationY="100.0dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="My Profile"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:translationY="190.0dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
